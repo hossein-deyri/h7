@@ -1,0 +1,140 @@
+.p-datatable-thead{
+    direction:ltr;
+}
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+
+.datatable-doc-demo .p-progressbar {
+    height: .5rem;
+    background-color: #D8DADC;
+}
+
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+    background-color: #607D8B;
+}
+
+.datatable-doc-demo .table-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+
+.datatable-doc-demo .p-datepicker td {
+    font-weight: 400;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+    text-align: right;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td {
+    cursor: auto;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+
+.datatable-doc-demo .p-datatable-customers .p-datatable-tbody > tr > td .p-column-title {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th,
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tfoot > tr > td {
+        display: none !important;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr {
+        border-bottom: 1px solid var(--layer-2);
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td {
+        text-align: left;
+        display: block;
+        border: 0 none !important;
+        width: 100% !important;
+        float: left;
+        clear: left;
+        border: 0 none;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td .p-column-title {
+        padding: .4rem;
+        min-width: 30%;
+        display: inline-block;
+        margin: -.4rem 1rem -.4rem -.4rem;
+        font-weight: bold;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td .p-progressbar {
+        margin-top: .5rem;
+    }
+}
+
+
+.p-datatable-scrollable-header-box{
+    margin: 0 !important;
+}
+
+.p-inputtext{
+    width:100% !important;
+    background: #f3f5f8 !important;
+}
+
+.p-dropdown.p-dropdown-clearable .p-dropdown-label {
+    padding-right: 0.5rem !important;
+}
+
+.p-dropdown-clear-icon{
+    left: 60px !important;
+}
+
+.p-datatable-scrollable-body{
+    height: 45vh;
+}
+
+
+.p-paginator{
+        direction: ltr;        
+}
+
+
+
+.p-dropdown{
+    width: 150px;
+}
+
+.p-datatable .p-datatable-header{
+    color: #46647d !important;
+    font-size: 16px !important;
+    font-weight: bold !important; 
+    background-color: #fff !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th{
+    background-color: #fff !important;
+    color: #6c757d !important;
+}
+
+.p-dropdown{
+    background: #f3f5f8  !important;
+}
+
+.pad-y-3{
+    padding: .3rem 0 !important;
+}
